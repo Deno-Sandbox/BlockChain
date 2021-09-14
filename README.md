@@ -32,3 +32,6 @@ BlockChain {
 }
 ******** Validity of this blockchain:  true
 ```
+
+Find the module here: [deno.land/x](https://deno.land/x/blockchain_alice)
+ 
