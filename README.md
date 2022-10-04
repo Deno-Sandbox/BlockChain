@@ -1,8 +1,20 @@
 # BlockChain
 
-<img src="./githubFiles/open-source.gif">
+<img src="https://github.com/Deno-Sandbox/BlockChain/blob/main/.github/logo.jpg">
 
-Exemple of nativ result: 
+## How to use ?
+Follow the example: 
+```ts
+import { BlockChain } from 'https://deno.land/x/blockchain_alice@alpha/main.ts';
+const myBlockChain = new BlockChain();
+myBlockChain.addBlock({
+    sender: "Alice",
+    reciver: "BN",
+    amount: 100
+});
+```
+
+## Exemple of nativ result: 
 
 ```sh
 BlockChain {
